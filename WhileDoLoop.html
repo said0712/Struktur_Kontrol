@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var kelipatan =Number(prompt("Masukkan angka yang ingin dihitung diliat kelipatannya"));
+        var total =kelipatan*10;
+        var hasil = kelipatan;
+        while (hasil <= total) {
+            if (hasil < total) {
+                document.write(hasil, " ,");
+            } else {
+                document.write(hasil);
+            }
+            hasil =hasil+kelipatan;
+        }
+    </script>
+</body>
+</html>
